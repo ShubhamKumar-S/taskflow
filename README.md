@@ -192,23 +192,25 @@ of what the frontend shows.
 ---
 
 ## Project Structure
+
+```text
 taskflow/
 ├── backend/
 │   ├── src/
-│   │   ├── config/        # Database config
-│   │   ├── middleware/    # Auth, role checks, validation
-│   │   ├── models/        # User, Project, Task, ProjectMember
-│   │   ├── routes/        # auth, projects, tasks, dashboard
-│   │   ├── seed.js        # Demo data seeder
-│   │   └── server.js      # Entry point
+│   │   ├── config/         # Database config
+│   │   ├── middleware/     # Auth, role checks, validation
+│   │   ├── models/         # User, Project, Task, ProjectMember
+│   │   ├── routes/         # auth, projects, tasks, dashboard
+│   │   ├── seed.js         # Demo data seeder
+│   │   └── server.js       # Entry point
 │   └── package.json
 │
 ├── frontend/
 │   ├── src/
-│   │   ├── components/    # Navbar, TaskCard, MemberList...
-│   │   ├── context/       # AuthContext
-│   │   ├── pages/         # Login, Dashboard, Projects, Team...
-│   │   ├── utils/         # Axios instance
+│   │   ├── components/     # Navbar, TaskCard, MemberList...
+│   │   ├── context/        # AuthContext
+│   │   ├── pages/          # Login, Dashboard, Projects, Team...
+│   │   ├── utils/          # Axios instance
 │   │   └── App.jsx
 │   └── package.json
 │
